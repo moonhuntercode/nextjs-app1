@@ -1,0 +1,31 @@
+/* public/navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: var(--background);
+  border-bottom: 1px solid var(--gray-alpha-200);
+}
+
+.navbar .logo img {
+  height: 40px;
+}
+
+.navbar .navLinks {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.navbar .navLinks a {
+  color: var(--foreground);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .navLinks a:hover {
+  color: var(--button-primary-hover);
+}
